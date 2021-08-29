@@ -81,26 +81,7 @@ p {
     padding: 0 20px;
     color: #fff;
     }
-#hero {
-    background: url(../image/bg.jpg) no-repeat center/cover;
-    height: 600px;
-}
-#hero .hero-content {
-    color: #fff;
-    text-align: center;
-    padding-top: 170px;
-}
-#hero .hero-content h1{
-    font-size: 60px;
-    line-height: 1.2em;
-}
-.primary-text {
-    color: #4c4b53;
-}
-#hero .heo-content p {
-    padding-bottom: 20px;
-    line-height: 1.7em;
-}
+
 .text-lead {
     font-size: 20px;
 }
@@ -118,7 +99,7 @@ p {
     height: 400px;
 }
 #skills p{
-    line-height: 2em;
+    line-height: 1em;
 }
 #skills h2 {
     color: #ffb740;
@@ -137,7 +118,7 @@ p {
     width: 33%;
     overflow: hidden;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 #skills a.c-btn {
     color: #082032;
@@ -279,4 +260,35 @@ img {
   .section4 {
     background-color: #07070f;
     height: 130px;
+  }
+  .myskills {
+    text-align: center;
+    margin: 20px 0px;
+    color: #ffb740;
+  }
+  .container-flex1 {
+    display: flex;
+  }
+  .container-flex1 div {
+    /* border: solid 1px #fff; */
+    padding: 10px;
+    margin-left: 10px;
+    text-align: center;
+    background: #191926;
+  }
+  .container-flex1 i {
+    font-size: 30px;
+    color: #28b16a;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .container-flex1 h2 {
+    color: #fff;
+    margin-bottom: 10px;
+  }
+  .container-flex1 p {
+    color: #9595ad;
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 0px 10px;
   }
